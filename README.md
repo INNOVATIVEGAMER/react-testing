@@ -18,6 +18,7 @@ Add the following script in package.json.
 Commands to run -
 
 > yarn add -D --exact prettier
+
 > yarn add -D eslint-config-prettier
 
 Add the following in eslintConfig->extends array in package.json.
@@ -37,6 +38,7 @@ Add the following scripts in CRA application.
 Commands to run -
 
 > npx husky-init && yarn
+
 > npx husky add .husky/pre-push
 
 Change the pre-commit file in .husky folder to contain following commands (or the commands you want to run before each commit).
